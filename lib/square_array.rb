@@ -1,10 +1,10 @@
 def square_array(array)
-  count = 0
+  countr = 0
   arr_lnth = array.length
   
-  while count < arr_lnth do
-    array.index(count) = array.index(count)**2
-    count++
+  while countr < arr_lnth do
+    array.index(countr) = array.index(countr)**2
+    countr += 1
   
   
   
